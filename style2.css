@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  max-width: 2000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style the nav bar */
+
+.navbar {
+  height: 10vh;
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#links {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#divlinks {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+#icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  background: chocolate;
+  padding: 0 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* navbar on hover prompts  */
+
+#icon:hover {
+  background: chartreuse;
+}
+
+#divlinks:hover {
+  background: chartreuse;
+}
+
+/* main content */
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 20px;
+}
+
+.LHS {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.subdivs {
+  border: solid 2px black;
+  height: 33%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+.sbd1 {
+
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sbd2 {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.sbd3 {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+
+.RHS {
+  width: 35%;
+  border: solid 2px black;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+
+/* making the black squares */
+
+.squares {
+  height: 90px;
+  width: 90px;
+  background: black;
+  color: white;
+  margin: 20px
+}
+
+
+p {
+  word-break: break-all;
+  white-space: normal;
+}
