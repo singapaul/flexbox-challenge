@@ -1,0 +1,91 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  max-width: 2000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style the nav bar */
+
+.navbar {
+  height: 10vh;
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#links {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#divlinks {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+#icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  background: chocolate;
+  padding: 0 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* navbar on hover prompts  */
+
+#icon:hover {
+  background: chartreuse;
+}
+
+#divlinks:hover {
+  background: chartreuse;
+}
+
+/* main content */
+
+.grid {
+  display: flex;
+  flex-direction: column;}
+
+  .top{display: flex;
+  justify-content: space-between;
+flex-basis: 100%;
+flex-wrap: wrap;}
+
+  .bottom{display: flex;
+  justify-content: space-between;
+flex-wrap: wrap;}
+
+
+  .card{
+    border: black 2px solid;
+    width:25%;
+
+  }
+
+  .grid__cardup__img{
+    width: 100px;
+  }
+
+// Adding flex shrink, grow, basis
+  .cardA{flex-grow: 2;}
+  .cardB{flex-shrink: 1;}
+  .cardC{flex-grow: 1;}
+  .cardD{flex-shrink:2 ;}
+  
